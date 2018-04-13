@@ -1,0 +1,22 @@
+/* CSS Document */
+
+body {
+	position: relative;
+}
+section {
+	padding-top: 50px;
+	height: 800px;
+	color: #fff;
+}
+#sec_01 {
+	background-color: #1E88E5;
+}
+#sec_02 {
+	background-color: #673ab7;
+}
+#sec_03 {
+	background-color: #ff9800;
+}
+#sec_04 {
+	background-color: #00bcd4;
+}
