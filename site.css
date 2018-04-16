@@ -5,7 +5,7 @@ body {
 }
 section {
 	padding-top: 50px;
-	height: 800px;
+	height: 900px;
 	color: #fff;
 }
 #sec_01 {
@@ -19,4 +19,21 @@ section {
 }
 #sec_04 {
 	background-color: #00bcd4;
+}
+
+.main_heading_container{
+	padding: 150px 500px 200px 100px;
+}
+
+.main_heading{
+	font-size:86px;
+    vertical-align: baseline;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+.padding{
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
