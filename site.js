@@ -23,4 +23,15 @@ $(document).ready(function () {
 			});
 		} // End if
 	});
+	
+	$(".sub_heading").fadeIn(1000);
+	$(".main_heading").fadeIn(2000);
+	$(".btn-default").animate({
+		height:"55px",
+		width:"200px",
+	});
+	$(".btn-danger").animate({
+		height:"55px",
+		width:"155px",
+	});
 });
