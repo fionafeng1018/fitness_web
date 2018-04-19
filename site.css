@@ -6,21 +6,27 @@ body {
 	font-family: Arial,Helvetica,sans-serif;
 }
 section {
-	height: 850px;
+	height: 900px;
 	color: #fff;
 }
-
 #sec_01 {
-	background-color: #CACACA;
+	background-color: rgba(0,0,0,0.60);
 }
 #sec_02 {
-	background-color: #6A6A6A;
+	background-color:rgba(237,54,66,0.60);
 }
 #sec_03 {
-	background-color: #B19899;
+	background-image:url(images/IMG_9737.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 #sec_04 {
-	background-color: #C3DAC7;
+	background-image: url(images/woman-eating-fruit.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #sec_05{
@@ -41,9 +47,30 @@ h1{
 h2{
 	font-size:36px;
 }
+
+.navbar{
+	font-size: 18px;
+	background-color:rgba(0,0,0,0.70);
+	border:none;
+}
 /*Section 1*/
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  transition: 1s opacity;
+}
 .main_heading_container{
-	padding: 150px 500px 200px 100px;
+	/*padding: 200px 500px 200px 100px;*/
+	position: relative;
+	top:200px;
+	left:100px;
 }
 
 .main_heading{
@@ -68,25 +95,41 @@ h2{
 }
 .about_me_con{
 	background-color: rgba(47,47,47,1.00);
-	height: 850px;
+	height: 900px;
+}
+.fitness_img{
+	height: 600px;
+	width: 400px;
+}
+.about_me_text{
+	padding: 130px 0px 0px 20px;
 }
 
-.about_me_text{
-	padding: 100px 0px 0px 20px;
+.about_me{
+	color:rgba(121,121,121,1.00);
+	font-size: 24px;
+	font-weight: 400;
+}
+.about_me_name{
+	font-weight: 600;
+	font-size: 48px;
 }
 /*End of sec 2*/
 
 /*Section 3*/
-
+.sec_03_text{
+	color:rgba(237,54,66,1.00);
+	font-size: 48px !important;
+}
 /*End of sec 3*/
 
 /*Section 4 Meal*/
 .meal .col-lg-2{
-	border-right: 2px solid green;
+	border-right: 2px solid rgba(237,54,66,1.00);
     height: 500px;
 }
 .meal .col-lg-3{
-	border-right: 2px solid green;
+	border-right: 2px solid rgba(237,54,66,1.00);
     height: 500px;
 }
 
@@ -97,3 +140,7 @@ footer{
 	height: 300px;
 	background-color: rgba(0,0,0,1.00); 
 }
+
+
+
+
