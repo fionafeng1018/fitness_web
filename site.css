@@ -23,7 +23,7 @@ section {
 
 }
 #sec_04 {
-	background-image: url(images/woman-eating-fruit.jpg);
+	background-image: url(images/第四页背景.png);
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,6 +52,9 @@ h2{
 	font-size: 18px;
 	background-color:rgba(0,0,0,0.70);
 	border:none;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color:rgba(242,0,4,1.00);
 }
 /*Section 1*/
 video { 
@@ -114,6 +117,14 @@ video {
 	font-weight: 600;
 	font-size: 48px;
 }
+
+hr{
+	border-color: rgba(255,0,4,1.00);
+	border-style: solid;
+}
+.page2_text{
+	font-size: 18px;
+}
 /*End of sec 2*/
 
 /*Section 3*/
@@ -121,26 +132,227 @@ video {
 	color:rgba(237,54,66,1.00);
 	font-size: 48px !important;
 }
+.routine_div{
+	margin: 30px;
+	padding: 10px;
+}
+.routine_img{
+	height: 240px;
+	width: 360px;
+}
+.routine_div p{
+	font-size: 20px;
+	color: #ffffff;
+}
+.page3_text{
+	font-size: 20px;
+}
 /*End of sec 3*/
 
 /*Section 4 Meal*/
-.meal .col-lg-2{
-	border-right: 2px solid rgba(237,54,66,1.00);
-    height: 500px;
-}
-.meal .col-lg-3{
-	border-right: 2px solid rgba(237,54,66,1.00);
-    height: 500px;
-}
 
+.meal h3{
+	background-color:rgba(255,32,35,1.00);
+	line-height: 50px;
+}
 /*End of sec 4*/
 
 /*Footer*/
 footer{
-	height: 300px;
+	height: 520px;
 	background-color: rgba(0,0,0,1.00); 
 }
 
+/*Join in page*/
 
+.join_in{
+	background-color:rgba(68,68,68,1.00);
+	text-align: center;
+}
 
+.book_main_con{
+	background-color:rgba(0,0,0,1.00);
+	padding-bottom: 20px;
+	height: 500px;
+	
+}
+.booking_img{
+	padding: 10px;
+	height: 240px;
+	width: 360px;
+}
 
+.join_in h1{
+	color:#ffffff;
+}
+
+.join_in h2{
+	color: rgba(162,0,2,1.00);
+}
+
+.join_in p{
+	font-size: 20px;
+	color: rgba(255,255,255,1.00);
+}
+
+.join_in .btn{
+	width: 40%;
+	font-size: 16px;
+	color: #ffffff;
+	background-color:rgba(78,1,2,0.93);
+	border: none;
+	margin-top: 15px;
+}
+
+.join_in .btn:hover{
+	background-color:rgba(255,255,255,0.5);
+	color: rgba(35,35,35,1.00);
+}
+
+/*Hover image text Slide*/
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(202,36,39,1.00);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.book_main_con:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Footer form*/
+form { max-width:400px; margin:30px auto; }
+
+.feedback-input {
+  color:rgba(255,255,255,1.00);
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  font-weight:100;
+  font-size: 12px;
+  border-radius: 5px;
+  line-height: 12px;
+  background-color: transparent;
+  border:2px solid rgba(237,54,66,1.00);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+#send{
+	text-align: right;
+}
+
+.feedback-input:focus { 
+	border:rgba(156,95,96,0.89) 2px solid;
+		border-radius:30px;
+}
+
+textarea {
+  height: 100px;
+  line-height: 120%;
+  resize:vertical;
+}
+
+/* nav bar custom*/
+
+#book_now{
+	margin-bottom: 50px;
+}
+
+.contact_footer{
+	height: 300px;
+	position: fixed;
+}
+
+.contact_footer p{
+	font-size: 16px;
+}
+
+.date_input{
+	color: #000000;
+}
+
+h4{
+	color: rgba(0,0,0,1.00);
+	font-weight: 600;
+}
+
+.join_in_mian_con{
+	margin-bottom: 100px;
+}
+
+.copyright{
+	font-size: 14px !important;
+}
+
+.btn a{
+	color: #ffffff;
+}
+.btn a:hover{
+	text-decoration: none;
+	
+}
+#view_btn{
+	background-color: transparent;
+	width: 200px;
+}
+#join_btn{
+	width: 200px!important;
+}
+
+#footer_text_1{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#breakfast_text{
+	width: 165px;
+	text-align: center;
+	margin-left: 50px;
+}
+
+#example1{
+	display: none;
+	width: 165px;
+	margin-left: 50px;
+}
+
+#example2{
+	display: none;
+}
+#example3{
+	display: none;
+}
+#example4{
+	display: none;
+}
+#example5{
+	display: none;
+}
+.example_text{
+	font-size: 20px;
+}
+
+.example_list{
+	background-color: rgba(157,75,76,0.76);
+}
